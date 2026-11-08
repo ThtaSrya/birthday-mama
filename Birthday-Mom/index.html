@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff6f3">
+  <meta name="description" content="Sebuah kejutan kecil penuh cinta untuk Mama.">
+  <title>Untuk Mama — Happy Birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="sparkle-layer" id="sparkleLayer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Kembali ke awal">
+      <span class="brand-mark">✿</span>
+      <span>for <b>Mama</b></span>
+    </a>
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="Putar musik">
+      <span class="music-icon">♫</span>
+      <span id="musicLabel">Putar musik</span>
+      <span class="equalizer" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> SEBUAH KEJUTAN KECIL UNTUKMU <span class="eyebrow-line"></span></p>
+        <h1>Happy Birthday,<br><em>Mama.</em></h1>
+        <p class="hero-subtitle">Untuk perempuan paling istimewa, yang cintanya selalu menjadi rumah.</p>
+        <div class="hero-date"><span>29</span><span class="date-divider"></span><span>NOVEMBER</span><span class="date-year">2026</span></div>
+        <a class="primary-button" href="#surprise">Buka kejutan <span>↗</span></a>
+        <p class="tiny-note">Dibuat dengan sepenuh hati ♡</p>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi bunga dan hadiah">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-sun"></div>
+        <div class="flower flower-a">✿</div>
+        <div class="flower flower-b">✿</div>
+        <div class="flower flower-c">✽</div>
+        <div class="gift-box">
+          <div class="gift-lid"></div><div class="gift-ribbon-v"></div><div class="gift-ribbon-h"></div>
+          <div class="gift-bow">♡</div>
+        </div>
+        <div class="floating-heart heart-a">♡</div>
+        <div class="floating-heart heart-b">♥</div>
+        <div class="hero-caption">a little love, just for you</div>
+      </div>
+      <a class="scroll-cue" href="#countdown"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="countdown-section section" id="countdown">
+      <div class="section-heading">
+        <p class="eyebrow">THE DAY IS ALMOST HERE</p>
+        <h2>Menghitung hari menuju<br><em>hari istimewa Mama</em></h2>
+      </div>
+      <div class="countdown" aria-label="Hitung mundur ulang tahun">
+        <div class="time-card"><strong id="days">00</strong><span>Hari</span></div>
+        <div class="time-card"><strong id="hours">00</strong><span>Jam</span></div>
+        <div class="time-card"><strong id="minutes">00</strong><span>Menit</span></div>
+        <div class="time-card"><strong id="seconds">00</strong><span>Detik</span></div>
+      </div>
+      <p class="countdown-caption" id="countdownCaption">Satu hari istimewa untuk seseorang yang luar biasa.</p>
+    </section>
+
+    <section class="cake-section section" id="surprise">
+      <div class="section-heading">
+        <p class="eyebrow">MAKE A WISH, MAMA</p>
+        <h2>Saatnya meniup <em>lilin</em></h2>
+        <p class="section-description">Pejamkan mata, buat satu harapan, lalu tiup lilinnya. Semoga semua doa baik menemukan jalannya.</p>
+      </div>
+      <div class="cake-stage">
+        <div class="cake-glow"></div>
+        <div class="cake-sparkle sparkle-left">✦</div><div class="cake-sparkle sparkle-right">✧</div>
+        <div class="cake">
+          <div class="candle candle-one"><span class="flame"></span></div>
+          <div class="candle candle-two"><span class="flame"></span></div>
+          <div class="candle candle-three"><span class="flame"></span></div>
+          <div class="cake-top"><span class="icing-drip drip-one"></span><span class="icing-drip drip-two"></span><span class="icing-drip drip-three"></span></div>
+          <div class="cake-middle"></div>
+          <div class="cake-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <p class="cake-hint" id="cakeHint">Tiga lilin kecil, sejuta doa baik ✨</p>
+      </div>
+      <button class="primary-button blow-button" id="blowButton" type="button">Tiup lilinnya <span>✧</span></button>
+      <p class="interaction-note" id="blowMessage">Tekan tombolnya untuk membuat kejutan!</p>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="letter-card">
+        <div class="letter-decoration">❀</div>
+        <p class="eyebrow">A LETTER FROM THE HEART</p>
+        <h2>Untuk Mama,<br><em>dengan seluruh cinta.</em></h2>
+        <p class="letter-preview">Ada banyak hal yang mungkin tidak selalu bisa diucapkan setiap hari. Hari ini, izinkan aku menyampaikan sedikit dari semuanya...</p>
+        <button class="outline-button" id="openLetter" type="button">Buka surat kecil ini <span>♡</span></button>
+        <div class="letter-stamp">WITH<br>LOVE</div>
+      </div>
+    </section>
+
+    <section class="memories-section section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">LITTLE MOMENTS, BIG LOVE</p>
+        <h2>Potongan <em>kenangan</em></h2>
+        <p class="section-description">Tempat untuk menyimpan momen-momen indah bersama Mama.</p>
+      </div>
+      <div class="memory-grid">
+        <figure class="memory-card memory-one">
+          <img src="assets/images/Foto 1.jpeg" alt="Foto Mama">
+          <figcaption>Mama Is</figcaption>
+        </figure>
+
+        <figure class="memory-card memory-two">
+          <img src="assets/images/Foto 2.jpeg" alt="Foto keluarga">
+          <figcaption>a place</figcaption>
+        </figure>
+
+        <figure class="memory-card memory-three">
+          <img src="assets/images/Kenangan New.jpeg" alt="Kenangan bersama Mama">
+          <figcaption>Called Home</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="final-section section">
+      <div class="final-flower">✿</div>
+      <p class="eyebrow">TODAY, TOMORROW, ALWAYS</p>
+      <h2>We love you,<br><em>Mama.</em></h2>
+      <p>Semoga Mama selalu sehat, bahagia, dikelilingi orang-orang yang menyayangi Mama, dan diberi umur panjang penuh berkah.</p>
+      <div class="final-signature">With all my love <span>♡</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">MADE WITH <span>♥</span> FOR MAMA · 29 NOVEMBER 2026</footer>
+
+  <div class="letter-modal" id="letterModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <article class="letter-paper">
+      <button class="modal-close" id="closeLetter" type="button" aria-label="Tutup surat">×</button>
+      <div class="paper-flower">✿</div>
+      <p class="eyebrow">A LITTLE NOTE FOR YOU</p>
+      <h2 id="modalTitle">Untuk Mama tersayang,</h2>
+      <div class="letter-body">
+        <p>Selamat ulang tahun, Mama. Terima kasih untuk setiap doa, kasih sayang, kesabaran, dan semua hal baik yang Mama berikan, bahkan untuk hal-hal kecil yang mungkin sering tidak kusadari.</p>
+        <p>Maaf kalau selama ini masih ada sikap dan kata-kata yang menyakiti hati mama. Aku mungkin tidak selalu pandai mengungkapkan rasa sayang, tetapi aku sangat bersyukur memiliki Mama.</p>
+        <p>Semoga Mama selalu diberikan kesehatan, ketenangan hati, kebahagiaan, dan umur yang penuh berkah. Semoga setiap harapan baik Mama satu per satu menjadi nyata.</p>
+        <p class="letter-end">Aku sayang Mama, selalu. <span>♡</span></p>
+      </div>
+      <div class="paper-sign">Tahta,</div>
+    </article>
+  </div>
+
+  <audio id="birthdayMusic" src="assets/music/birthday.mp3" preload="none" loop></audio>
+  <script src="js/script.js"></script>
+</body>
+</html>
